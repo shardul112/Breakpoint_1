@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sentry-bg: #09090b;
+  --color-sentry-surface: #18181b;
+  --color-sentry-emerald: #10b981;
+  --color-sentry-emerald-glow: rgba(16, 185, 129, 0.2);
+  --color-sentry-amber: #f59e0b;
+  --color-sentry-amber-glow: rgba(245, 158, 11, 0.2);
+  --color-sentry-crimson: #ef4444;
+  --color-sentry-crimson-glow: rgba(239, 68, 68, 0.2);
+  --color-sentry-purple: #8b5cf6;
+  --color-sentry-blue: #3b82f6;
+}
+
+:root {
+  --background: #09090b;
+  --foreground: #fafafa;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
